@@ -23,6 +23,7 @@ AFRAME.registerComponent('create-cow-component', {
         let cowElem = document.createElement('a-entity');
         cowElem.setAttribute('obj-model', {obj:'/assets/models/Cow.obj'});
         cowElem.setAttribute('material', {src:'/assets/textures/Cow.png'});
+        cowElem.setAttribute('id', 'moo');
         cowElem.setAttribute('remove-component', {}); 
         cowElem.setAttribute('position', {x:2, y:0, z:-4});
         
